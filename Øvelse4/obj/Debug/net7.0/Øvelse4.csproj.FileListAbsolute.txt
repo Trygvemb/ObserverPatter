@@ -1,0 +1,15 @@
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/bin/Debug/net7.0/Øvelse4
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/bin/Debug/net7.0/Øvelse4.deps.json
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/bin/Debug/net7.0/Øvelse4.runtimeconfig.json
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/bin/Debug/net7.0/Øvelse4.dll
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/bin/Debug/net7.0/Øvelse4.pdb
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/Øvelse4.csproj.AssemblyReference.cache
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/Øvelse4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/Øvelse4.AssemblyInfoInputs.cache
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/Øvelse4.AssemblyInfo.cs
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/Øvelse4.csproj.CoreCompileInputs.cache
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/Øvelse4.dll
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/refint/Øvelse4.dll
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/Øvelse4.pdb
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/Øvelse4.genruntimeconfig.cache
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Øvelse4/obj/Debug/net7.0/ref/Øvelse4.dll

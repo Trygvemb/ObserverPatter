@@ -1,0 +1,15 @@
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/bin/Debug/net7.0/Ex31-ObserverPattern
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/bin/Debug/net7.0/Ex31-ObserverPattern.deps.json
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/bin/Debug/net7.0/Ex31-ObserverPattern.runtimeconfig.json
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/bin/Debug/net7.0/Ex31-ObserverPattern.dll
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/bin/Debug/net7.0/Ex31-ObserverPattern.pdb
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/Ex31-ObserverPattern.csproj.AssemblyReference.cache
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/Ex31-ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/Ex31-ObserverPattern.AssemblyInfoInputs.cache
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/Ex31-ObserverPattern.AssemblyInfo.cs
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/Ex31-ObserverPattern.csproj.CoreCompileInputs.cache
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/Ex31-ObserverPattern.dll
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/refint/Ex31-ObserverPattern.dll
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/Ex31-ObserverPattern.pdb
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/Ex31-ObserverPattern.genruntimeconfig.cache
+/Users/trygvebechsgaard/Projects/Ex31-ObserverPattern/Ex31-ObserverPattern/obj/Debug/net7.0/ref/Ex31-ObserverPattern.dll
