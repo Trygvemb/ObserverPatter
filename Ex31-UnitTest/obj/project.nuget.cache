@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G3K2uiJGSlqXPas8N8WaHj62PRDxktpldwA/UevOdzI0csYIJOPoC5W2GEn2QsusJNzkC17ySpoIDU23MNFV0w==",
+  "dgSpecHash": "50Aut3IjtJXSZxZl+JI6YV0kOld4FlK4YX1nW39v97/S2k21wbXZ2e1BxD0EwXhhwubF4Ag2t/lFBFWVygSkcQ==",
   "success": true,
   "projectFilePath": "/Users/trygvebechsgaard/Desktop/VS Projects/Ex31-ObserverPattern/Ex31-UnitTest/Ex31-UnitTest.csproj",
   "expectedPackageFiles": [

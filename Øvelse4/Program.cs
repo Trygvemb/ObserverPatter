@@ -1,27 +1,29 @@
-﻿namespace Øvelse4;
-class Program
+﻿namespace Øvelse4
 {
-    static void Main(string[] args)
+    class Program
     {
-        Academy p = new Academy("UCL", "Seebladsgade");
+        static void Main(string[] args)
+        {
+            Academy p = new Academy("UCL", "Seebladsgade");
 
-        Student s1 = new Student(p, "Jens");
-        Student s2 = new Student(p, "Niels");
-        Student s3 = new Student(p, "Susan");
+            Student s1 = new Student(p, "Jens");
+            Student s2 = new Student(p, "Niels");
+            Student s3 = new Student(p, "Susan");
 
-        p.Attach(s1);
-        p.Attach(s2);
-        p.Attach(s3);
+            p.Attach(s1);
+            p.Attach(s2);
+            p.Attach(s3);
 
-        p.Message = "Så er der julefrokost!";
+            p.Message = "Så er der julefrokost!";
 
-        p.Detach(s2);
+            p.Detach(s2);
 
-        p.Message = "Så er der fredagsbar!";
+            p.Message = "Så er der fredagsbar!";
 
-        Console.ReadKey();
+            Console.ReadKey();
+        }
+
+
     }
-
-
 }
 

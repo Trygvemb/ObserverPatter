@@ -1,6 +1,8 @@
 ﻿using System;
 namespace Øvelse4
 {
+    public delegate void NotifyHandler();
+
     public class Academy : Organization, ISubject 
     {
         private string message;
@@ -10,12 +12,18 @@ namespace Øvelse4
             get { return message; }
             set
             {
-                message = value;
-                Notify();
+                if (message != value)
+                {
+                    message = value;
+                    Notify();
+                }
+
             }
         }
 
-        private List<IObserver> observers = new List<IObserver>();
+        private NotifyHandler students;
+
+        //private List<IObserver> observers = new List<IObserver>();
 
 
         public Academy(string name, string address) : base(name)
@@ -25,20 +33,17 @@ namespace Øvelse4
 
         public void Attach(IObserver o)
         {
-            observers.Add(o);
+            students += o.Update;
         }
 
         public void Detach(IObserver o)
         {
-            observers.Remove(o);
+            students -= o.Update;
         }
 
         public void Notify()
         {
-            foreach (IObserver o in observers)
-            {
-                o.Update();
-            }
+            students();
         }
     }
 }

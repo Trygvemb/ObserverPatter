@@ -12,7 +12,7 @@ namespace Øvelse4
 		}
 		public string Address
 		{
-			get { return name; }
+			get { return address; }
 			set { address = value; }
 		}
 
