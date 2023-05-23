@@ -11,14 +11,15 @@
             Student s2 = new Student(p, "Niels");
             Student s3 = new Student(p, "Susan");
 
-            p.Students += s1.Update;
-            p.Students += s2.Update;
-            p.Students += s3.Update;
+            p.MessageChanged += s1.Update;
+            p.MessageChanged += s2.Update;
+            p.MessageChanged = null;
+            p.MessageChanged += s3.Update;
 
 
             p.Message = "Så er der julefrokost!";
 
-            p.Students -= s2.Update;
+            p.MessageChanged -= s2.Update;
 
             p.Message = "Så er der fredagsbar!";
 
