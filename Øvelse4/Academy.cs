@@ -15,8 +15,12 @@ namespace Øvelse4
             }
         }
 
-        private List<IObserver> observers = new List<IObserver>();
+        //private List<IObserver> observers = new List<IObserver>();
 
+        public delegate void NotifyHandler();
+
+        private NotifyHandler students;
+        
 
         public Academy(string name, string address) : base(name)
         {
@@ -25,7 +29,7 @@ namespace Øvelse4
 
         public void Attach(IObserver o)
         {
-            observers.Add(o);
+            students.Add(o);
         }
 
         public void Detach(IObserver o)
