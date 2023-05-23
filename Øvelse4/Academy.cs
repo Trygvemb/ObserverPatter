@@ -3,7 +3,7 @@ namespace Øvelse4
 {
     public delegate void NotifyHandler();
 
-    public class Academy : Organization, ISubject 
+    public class Academy : Organization // , ISubject 
     {
         private string message;
 
@@ -15,13 +15,15 @@ namespace Øvelse4
                 if (message != value)
                 {
                     message = value;
-                    Notify();
+                    Students();
                 }
 
             }
         }
 
-        private NotifyHandler students;
+        public NotifyHandler Students;
+
+
 
         //private List<IObserver> observers = new List<IObserver>();
 
@@ -31,20 +33,20 @@ namespace Øvelse4
             this.Address = address;
         }
 
-        public void Attach(IObserver o)
-        {
-            students += o.Update;
-        }
+        //public void Attach(IObserver o)
+        //{
+        //    Students += o.Update;
+        //}
 
-        public void Detach(IObserver o)
-        {
-            students -= o.Update;
-        }
+        //public void Detach(IObserver o)
+        //{
+        //    Students -= o.Update;
+        //}
 
-        public void Notify()
-        {
-            students();
-        }
+        //public void Notify()
+        //{
+        //    Students();
+        //}
     }
 }
 
