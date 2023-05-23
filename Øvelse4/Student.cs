@@ -27,11 +27,13 @@ namespace Øvelse4
         public Student(Academy academy, string name) : base(name)
         {
             this.academy = academy;
-            this.academy.Attach(this);
+            this.Message = academy.Message;
         }
 
         public void Update()
         {
+
+
             Console.WriteLine($"Studerende {base.Name} modtog nyheden '{academy.Message}' fra akademiet {academy.Name}");
         }
     }
