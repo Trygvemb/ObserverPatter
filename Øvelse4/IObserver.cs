@@ -3,7 +3,7 @@ namespace Øvelse4
 {
 	public interface IObserver
 	{
-		public void Update();
+		public void Update(object sender, EventArgs e);
 	}
 }
 

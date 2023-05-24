@@ -1,12 +1,20 @@
 ﻿<Properties StartupConfiguration="{4BCCC23B-93EE-4746-9897-72FE94AB247C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Øvelse4/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Øvelse4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Øvelse4/Academy.cs">
     <Files>
-      <File FileName="Øvelse4/Student.cs" Line="9" Column="1" />
-      <File FileName="Øvelse4/Academy.cs" Line="19" Column="18" />
-      <File FileName="Øvelse4/IObserver.cs" Line="4" Column="4" />
-      <File FileName="Øvelse4/Organization.cs" Line="23" Column="1" />
-      <File FileName="Øvelse4/Person.cs" Line="16" Column="1" />
-      <File FileName="Øvelse4/Program.cs" Line="8" Column="1" />
+      <File FileName="Øvelse4/Student.cs" />
+      <File FileName="Øvelse4/Academy.cs" Line="43" Column="1" />
+      <File FileName="Øvelse4/INotifyMessageChanged.cs" Line="6" Column="22" />
+      <File FileName="Øvelse4/IObserver.cs" />
+      <File FileName="Øvelse4/Organization.cs" />
+      <File FileName="Øvelse4/Person.cs" />
+      <File FileName="Øvelse4/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,18 +24,6 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Ex31-ObserverPattern" expanded="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Øvelse4 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>

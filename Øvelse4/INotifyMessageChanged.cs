@@ -3,8 +3,10 @@ namespace Øvelse4
 {
 	public interface INotifyMessageChanged
 	{
-        public event NotifyHandler MessageChanged;
+        //public delegate void NotifyHandler( MessageChanged);
+        //public delegate void EventHandler(object sender, EventArgs e);
 
+        public event EventHandler MessageChanged;
     }
 }
 

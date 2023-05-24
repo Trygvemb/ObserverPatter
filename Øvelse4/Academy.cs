@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Øvelse4
 {
-    public delegate void NotifyHandler();
+    public delegate void EventHandler(object sender, EventArgs e);
 
     public class Academy : Organization, INotifyMessageChanged
     {
@@ -15,13 +15,13 @@ namespace Øvelse4
                 if (message != value)
                 {
                     message = value;
-                    MessageChanged();
+                    OnMessageChanged();
                 }
 
             }
         }
 
-        public NotifyHandler MessageChanged;
+        public event EventHandler MessageChanged;
 
 
         public Academy(string name, string address) : base(name)
@@ -29,7 +29,9 @@ namespace Øvelse4
             this.Address = address;
         }
 
-        event NotifyHandler INotifyMessageChanged.MessageChanged
+
+
+        event EventHandler INotifyMessageChanged.MessageChanged
         {
             add
             {
@@ -44,7 +46,7 @@ namespace Øvelse4
 
         public void OnMessageChanged()
         {
-            MessageChanged();
+            MessageChanged(this, EventArgs.Empty);
         }
 
     }
