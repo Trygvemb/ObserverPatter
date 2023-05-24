@@ -13,7 +13,6 @@
 
             p.MessageChanged += s1.Update;
             p.MessageChanged += s2.Update;
-            p.MessageChanged = null;
             p.MessageChanged += s3.Update;
 
 

@@ -3,7 +3,7 @@ namespace Øvelse4
 {
     public delegate void NotifyHandler();
 
-    public class Academy : Organization 
+    public class Academy : Organization, INotifyMessageChanged
     {
         private string message;
 
@@ -27,6 +27,19 @@ namespace Øvelse4
         public Academy(string name, string address) : base(name)
         {
             this.Address = address;
+        }
+
+        event NotifyHandler INotifyMessageChanged.MessageChanged
+        {
+            add
+            {
+                throw new NotImplementedException();
+            }
+
+            remove
+            {
+                throw new NotImplementedException();
+            }
         }
 
         public void OnMessageChanged()
