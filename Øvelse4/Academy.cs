@@ -1,11 +1,15 @@
 ﻿using System;
+using System.ComponentModel;
+
 namespace Øvelse4
 {
     public delegate void EventHandler(object sender, EventArgs e);
 
-    public class Academy : Organization, INotifyMessageChanged
+    public class Academy : Organization, INotifyPropertyChanged
     {
         private string message;
+
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         public string Message
         {
@@ -15,14 +19,13 @@ namespace Øvelse4
                 if (message != value)
                 {
                     message = value;
-                    OnMessageChanged();
+                    OnPropertyChanged("Message");
                 }
 
             }
         }
 
-        public event EventHandler MessageChanged;
-
+        //public event EventHandler MessageChanged;
 
         public Academy(string name, string address) : base(name)
         {
@@ -30,23 +33,9 @@ namespace Øvelse4
         }
 
 
-
-        event EventHandler INotifyMessageChanged.MessageChanged
+        public void OnPropertyChanged(string propertyName)
         {
-            add
-            {
-                throw new NotImplementedException();
-            }
-
-            remove
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public void OnMessageChanged()
-        {
-            MessageChanged(this, EventArgs.Empty);
+            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
 
     }
